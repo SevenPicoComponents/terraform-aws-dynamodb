@@ -205,25 +205,6 @@ See [Terraform types and values](https://www.terraform.io/docs/configuration/exp
 | <a name="output_table_stream_arn"></a> [table\_stream\_arn](#output\_table\_stream\_arn) | DynamoDB table stream ARN |
 | <a name="output_table_stream_label"></a> [table\_stream\_label](#output\_table\_stream\_label) | DynamoDB table stream label |
 
-## Related Projects
-
-Check out these related projects.
-
-- [terraform-aws-dynamodb-autoscaler](https://github.com/sevenpicocomponents/terraform-aws-dynamodb-autoscaler) - Terraform module to provision DynamoDB autoscaler
-- [terraform-aws-tfstate-backend](https://github.com/sevenpicocomponents/terraform-aws-tfstate-backend) - Provision an S3 bucket to store terraform.tfstate file and a DynamoDB table to lock the state file to prevent concurrent modifications and state corruption
-- [terraform-aws-elasticache-redis](https://github.com/sevenpicocomponents/terraform-aws-elasticache-redis) - Terraform module to provision an ElastiCache Redis Cluster
-- [terraform-aws-elasticache-memcached](https://github.com/sevenpicocomponents/terraform-aws-elasticache-memcached) - Terraform Module for ElastiCache Memcached Cluster
-- [terraform-aws-elasticache-cloudwatch-sns-alarms](https://github.com/sevenpicocomponents/terraform-aws-elasticache-cloudwatch-sns-alarms) - Terraform module that configures CloudWatch SNS alerts for ElastiCache
-- [terraform-aws-rds-cluster](https://github.com/sevenpicocomponents/terraform-aws-rds-cluster) - Terraform module to provision an RDS Aurora cluster for MySQL or Postgres
-- [terraform-aws-rds](https://github.com/sevenpicocomponents/terraform-aws-rds) - Terraform module to provision AWS RDS instances
-
-## References
-
-For additional context, refer to some of these links.
-
-- [Terraform Standard Module Structure](https://www.terraform.io/docs/language/modules/develop/structure.html) - HashiCorp's standard module structure is a file and directory layout we recommend for reusable modules distributed in separate repositories.
-- [Terraform Module Requirements](https://www.terraform.io/docs/registry/modules/publish.html#requirements) - HashiCorp's guidance on all the requirements for publishing a module. Meeting the requirements for publishing a module is extremely easy.
-- [Terraform Version Pinning](https://www.terraform.io/docs/language/settings/index.html#specifying-a-required-terraform-version) - The required_version setting can be used to constrain which versions of the Terraform CLI can be used with your configuration
 
 ## License
 
